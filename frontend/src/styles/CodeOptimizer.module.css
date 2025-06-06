@@ -1,0 +1,73 @@
+/* Container */
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Code Input Box */
+.codeInput {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: monospace;
+  resize: vertical;
+}
+
+/* Optimize Button */
+.optimizeButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.optimizeButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Optimized Code Output Box */
+/* Optimized Code Output Box */
+.outputBox {
+  width: 100%;
+  max-width: 600px; /* Keep it within a fixed width */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  text-align: left;
+  font-family: monospace;
+  white-space: pre-wrap; /* Keeps formatting but wraps text */
+  word-break: break-word; /* Ensures long words break correctly */
+  overflow-wrap: break-word; /* Ensures text doesn't overflow */
+  max-height: 300px; /* Limits height to avoid excessive space */
+  overflow-y: auto; /* Adds scrollbar if needed */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensuring the <pre> tag inside the output box doesn't overflow */
+.outputBox pre {
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap; /* Ensures wrapping */
+  word-break: break-word; /* Breaks long words */
+  overflow-wrap: break-word; /* Prevents overflow */
+}
