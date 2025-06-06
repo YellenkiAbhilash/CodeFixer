@@ -1,0 +1,66 @@
+.container {
+  text-align: center;
+  background-color: #e8f0ff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1a73e8;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.codeInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.languageSelect {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.translateButton {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.translateButton:hover {
+  background-color: #1558b0;
+}
+
+.outputBox {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #1a73e8;
+  margin-bottom: 5px;
+}

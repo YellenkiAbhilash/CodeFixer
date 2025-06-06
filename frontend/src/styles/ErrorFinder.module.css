@@ -1,0 +1,86 @@
+.container {
+  text-align: center;
+  background-color: #ffebeb;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #d32f2f;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.codeInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.languageSelect {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.findErrorsButton {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.findErrorsButton:hover {
+  background-color: #b71c1c;
+}
+/* Error Output Box */
+.outputBox {
+  width: 100%;
+  max-width: 600px; /* Keep it within a fixed width */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  text-align: left;
+  font-family: monospace;
+  white-space: pre-wrap; /* Keeps formatting but wraps text */
+  word-break: break-word; /* Ensures long words break correctly */
+  overflow-wrap: break-word; /* Ensures text doesn't overflow */
+  max-height: 300px; /* Limits height to avoid excessive space */
+  overflow-y: auto; /* Adds scrollbar if needed */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensuring the <pre> tag inside the output box doesn't overflow */
+.outputBox pre {
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap; /* Ensures wrapping */
+  word-break: break-word; /* Breaks long words */
+  overflow-wrap: break-word; /* Prevents overflow */
+}
+
+
+h3 {
+  color: #d32f2f;
+  margin-bottom: 5px;
+}
